@@ -34,4 +34,4 @@ new_age = Bob.change_age(34)
 new_track = Bob.add_tracks("UI/UX")
 bob_score = Bob.get_score()
 
-print(new_name, ",", new_age, ",", new_track, ",", bob_score)
+print("name:", new_name, ",", "age:", new_age, ",", "tracks:", new_track, ",", "score:", bob_score)
