@@ -11,6 +11,9 @@ class Student:
         return self.name
 
     def change_age(self, age):
+        if not isinstance(age, int):
+            raise Exception(f"{age} is an invalid input type.")
+
         self.age = age
         return self.age
 
